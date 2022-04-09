@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="Data Source=Server=tcp:azure-mvc-test-dbserver.database.windows.net,1433;Initial Catalog=AzureDB;Persist Security Info=False;User ID=Jimmy;Password={!Kash51023};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\程式\\MVC_Test\\MVC_Test\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="MVC_TestEntities-Web.config Connection String" description="MVC_TestEntities 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="metadata=res://*/Models.MVC_Test.csdl|res://*/Models.MVC_Test.ssdl|res://*/Models.MVC_Test.msl;provider=System.Data.SqlClient;provider connection string=&quot;data Source=LAPTOP-62JG1AL8\SQLEXPRESS;Initial Catalog=MVC_Test;Integrated Security=True;multipleactiveresultsets=True;application name=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\程式\\MVC_Test\\MVC_Test\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MVC_TestEntities']/@connectionString" />
+  </parameter>
+  <parameter name="UserEntities-Web.config Connection String" description="UserEntities 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="metadata=res://*/Models.User.csdl|res://*/Models.User.ssdl|res://*/Models.User.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDb)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\aspnet-MVC_Test-20220307111240.mdf;initial catalog=aspnet-MVC_Test-20220307111240;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\程式\\MVC_Test\\MVC_Test\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UserEntities']/@connectionString" />
+  </parameter>
+  <parameter name="AzureDBEntities-Web.config Connection String" description="AzureDBEntities 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="metadata=res://*/Models.AzureDB.csdl|res://*/Models.AzureDB.ssdl|res://*/Models.AzureDB.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=azure-mvc-test-dbserver.database.windows.net;initial catalog=AzureDB;user id=Jimmy;password=!Kash51023;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\程式\\MVC_Test\\MVC_Test\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureDBEntities']/@connectionString" />
+  </parameter>
+  <parameter name="UserdbEntities-Web.config Connection String" description="UserdbEntities 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="metadata=res://*/Models.UserModel.csdl|res://*/Models.UserModel.ssdl|res://*/Models.UserModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=azure-mvc-test-dbserver.database.windows.net;initial catalog=Userdb;user id=Jimmy;password=!Kash51023;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\程式\\MVC_Test\\MVC_Test\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UserdbEntities']/@connectionString" />
+  </parameter>
+</parameters>
